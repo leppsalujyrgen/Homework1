@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #d5eaf3;
+    align-items: center;
+}
+
+#header-container {
+
+    padding: 2%;
+    max-height: 200px;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    letter-spacing: 3px;
+    text-align: center;
+    
+    background-color: white;
+}
+
+/* Profile information styling */
+
+.personal-info-container img, .personal-info-container ol {
+    width: 40%;
+    min-width: 300px;
+    max-width: 500px;
+    padding: 10px;
+}
+
+.personal-info-container img {
+    margin-top: 20px;  
+    background-color: white; 
+}
+
+.personal-info-container ol{ 
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    font-size: 30px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+
+    background-color: white; 
+}
