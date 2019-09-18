@@ -23,6 +23,10 @@ body {
 
 /* Profile information styling */
 
+.personal-info-container {
+    padding-top: 20px;
+}
+
 .personal-info-container img, .personal-info-container ol {
     width: 40%;
     min-width: 300px;
@@ -31,8 +35,7 @@ body {
 }
 
 .personal-info-container img {
-    margin-top: 20px;  
-    background-color: white; 
+    background-color: white;
 }
 
 .personal-info-container ol{ 
