@@ -7,6 +7,16 @@ body {
     background-color: #d5eaf3;
     align-items: center;
 }
+tr td {
+	background-color: green;
+}
+h1 > span {
+	color:green;
+}
+div ~ p {
+	color:black;
+}
+
 
 #header-container {
 
