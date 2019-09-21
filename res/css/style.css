@@ -1,6 +1,6 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -65,7 +65,7 @@ div ~ p {
 }
 
 .personal-info-container ol{ 
-    margin-top: 0px;
+    margin-top: 0;
     padding-top: 20px;
     padding-bottom: 20px;
 
@@ -123,10 +123,25 @@ div ~ p {
     font-size: 35px;
 }
 
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    background-color: #ffffff;
-    text-align: center;
+@media screen and (min-height: 0px) {
+    footer {
+        position: static;
+        margin-top: 20px;
+        bottom: 0;
+        height: 2.5rem;
+        width: 100%;
+        background-color: #ffffff;
+        text-align: center;
+    }
+}
+
+@media screen and (min-height: 1000px) {
+    footer {
+        position: absolute;
+        bottom: 0;
+        height: 2.5rem;
+        width: 100%;
+        background-color: #ffffff;
+        text-align: center;
+    }
 }
