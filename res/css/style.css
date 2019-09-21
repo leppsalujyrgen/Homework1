@@ -1,3 +1,8 @@
+/* * *
+*   Web development: Homework 1
+*   Authors: Toomas Tamm, Hans-Kristjan Urm, Jürgen Leppsalu
+ * * */
+
 * {
     margin: 0;
     padding: 0;
@@ -27,6 +32,7 @@ div ~ p {
 	color:black;
 }
 
+/* Page header styling */
 
 #header-container {
 
@@ -46,7 +52,7 @@ div ~ p {
 /* Profile information styling */
 
 .personal-info-container {
-    padding-top: 20px;
+    padding-top: 5%;
     text-align: center;
     display: flex;
     flex-direction: row;
@@ -123,7 +129,30 @@ div ~ p {
     font-size: 35px;
 }
 
-@media screen and (min-height: 0px) {
+@media screen and (max-width: 480px) {
+
+    .image-card {
+        width: 310px;
+    }
+
+    .personal-info-card {
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        width: 310px;
+    }
+
+    .some-number {
+        margin-top: 110px;
+        margin-left: 0;
+        margin-right: 0;
+        border: 0;
+        padding: 0;
+        width: 310px;
+    }
+}
+
+@media screen and (max-height: 999px) {
     footer {
         position: static;
         margin-top: 20px;
