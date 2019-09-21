@@ -7,11 +7,19 @@ body {
     background-color: #d5eaf3;
     align-items: center;
 }
+
+table {
+    border-collapse: collapse;
+    width: 95%;
+    margin: 5px;
+}
+
 tr td {
-	background-color: green;
+    border-top: 1px solid black;
+    border-bottom: 1px solid #999;
 }
 h1 > span {
-	color:green;
+	color:Black;
 }
 div ~ p {
 	color:black;
@@ -103,8 +111,8 @@ div ~ p {
     display: flex;
     line-height: 310px;
     margin-left: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
     order: 0;
     flex: 0 0 auto;
     align-self: stretch;
